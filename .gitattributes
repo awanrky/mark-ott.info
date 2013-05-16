@@ -1,0 +1,16 @@
+# * -crlf
+*			text=auto
+*.sh		text
+*.js		text
+*.ps1		text
+*.bat		text
+*.csproj	text
+*.sln		text
+*.md		text
+*.json		text
+*.html		text
+
+
+*.png		binary
+*.jpeg		binary
+*.jpg		binary
