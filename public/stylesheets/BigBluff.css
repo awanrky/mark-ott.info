@@ -4,6 +4,13 @@
 	display: block;
 }
 
-#body-div img {
+#body-image-div img {
 	float: left;
+	margin-right: 15px;
+}
+
+#images-div img {
+	float: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
