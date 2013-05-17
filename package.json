@@ -1,16 +1,16 @@
 {
-  "name": "mark-ott.info",
-  "version": "0.0.1-1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "express": "3.2.4",
-    "jade": "*"
-  },
-  "subdomain": "mark-ott-info",
-  "engines": {
-    "node": "0.8.x"
-  }
+	"name": "mark-ott.info",
+	"version": "0.0.1-1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "3.2.4",
+		"jade": "*"
+	},
+	"subdomain": "mark-ott-info",
+	"engines": {
+		"node": "0.8.x"
+	}
 }

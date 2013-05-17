@@ -1,9 +1,9 @@
 #images-div img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 #body-div img {
-    float: left;
+	float: left;
 }
