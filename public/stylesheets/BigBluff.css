@@ -9,6 +9,10 @@
 	margin-right: 15px;
 }
 
+#images-div {
+	float: left;
+}
+
 #images-div img {
 	float: center;
 	margin-top: 15px;
