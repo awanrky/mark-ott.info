@@ -29,7 +29,9 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/users', user.list);
+
 app.get('/BigBluff', bigBluff.index);
+app.get('/BigBluff/default.aspx', bigBluff.defaultaspx); // keep old links to this page from breaking by redirecting requests for this page to the /BigBluff path
 
 http.createServer(app).listen(app.get('port'), function () {
 	console.log('Express server listening on port ' + app.get('port'));
