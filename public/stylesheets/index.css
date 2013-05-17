@@ -1,0 +1,16 @@
+#content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#links {
+	float: left;
+}
+
+#legacy-links {
+	float: right;
+}
+
+#picture img {
+	margin-top: 20px;
+}

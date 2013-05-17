@@ -2,12 +2,11 @@
  * Module dependencies.
  */
 
-var express = require('express')
-	, routes = require('./routes')
-	, user = require('./routes/user')
-	, bigBluff = require('./routes/BigBluff')
-	, http = require('http')
-	, path = require('path');
+var express = require('express'),
+		routes = require('./routes'),
+		bigBluff = require('./routes/BigBluff'),
+		http = require('http'),
+		path = require('path');
 
 var app = express();
 
@@ -28,7 +27,9 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/users', user.list);
+app.get('/default.aspx', routes.defaultaspx);
+
+app.get('/blog', routes.blog);
 
 app.get('/BigBluff', bigBluff.index);
 app.get('/BigBluff/default.aspx', bigBluff.defaultaspx); // keep old links to this page from breaking by redirecting requests for this page to the /BigBluff path
