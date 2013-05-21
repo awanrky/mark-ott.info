@@ -1,27 +1,50 @@
 !!!
 html
 	head
-		title= 'Poet Demo'
+		title= 'while (this) { blog(); }'
 		meta(charset='utf-8')
-		link(rel='stylesheet', href='/css/bootstrap.css')
+		link(rel='stylesheet', href='/external/bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/external/bootstrap/css/bootstrap-responsive.min.css')
+		link(rel='stylesheet', href='/stylesheets/blog/blog.css')
 	body
-		.navbar.navbar-fixed-top
+		.navbar.navbar-inverse.navbar-fixed-top
 			.navbar-inner
-				.container
-					a.brand(href='/') Poet Demos
-		.wrap
-			.container
-				.row
-					.span8
-						block content
-					.span4
-						.well.sidebar-nav
-							ul.nav.nav-list
-								li.nav-header categories
-								- each cat in categoryList
-									li
-										a(href=categoryUrl(cat)) #{cat}
-								li.nav-header tags
-								- each tag in tagList
-									li
-										a(href=tagUrl(tag)) #{tag}
+				.container-fluid
+					button.btn.btn-navbar
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.brand(href='/blog') 'while (this) { blog(); }'
+					div.nav-collapse.collapse
+						p.navbar-text.pull-right
+					ul.nav
+						li.active
+							a(href='/')'While this...'
+		.container-fluid
+			.row-fluid
+				.posts.span9
+					block content
+				.sidebar.span3
+					.well.sidebar-nav
+						ul.nav.nav-list
+							li.nav-header categories
+							- each cat in categoryList
+								li
+									a(href=categoryUrl(cat)) #{cat}
+							li.nav-header tags
+							- each tag in tagList
+								li
+									a(href=tagUrl(tag)) #{tag}
+		script(src="../assets/js/jquery.js")
+		script(src="../assets/js/bootstrap-transition.js")
+		script(src="../assets/js/bootstrap-alert.js")
+		script(src="../assets/js/bootstrap-modal.js")
+		script(src="../assets/js/bootstrap-dropdown.js")
+		script(src="../assets/js/bootstrap-scrollspy.js")
+		script(src="../assets/js/bootstrap-tab.js")
+		script(src="../assets/js/bootstrap-tooltip.js")
+		script(src="../assets/js/bootstrap-popover.js")
+		script(src="../assets/js/bootstrap-button.js")
+		script(src="../assets/js/bootstrap-collapse.js")
+		script(src="../assets/js/bootstrap-carousel.js")
+		script(src="../assets/js/bootstrap-typeahead.js")
