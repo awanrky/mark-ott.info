@@ -1,6 +1,6 @@
 {
 	"name": "mark-ott.info",
-	"version": "0.0.1-6",
+	"version": "0.0.1-9",
 	"private": true,
 	"scripts": {
 		"start": "node app.js"
@@ -11,6 +11,10 @@
 		"poet": "*"
 	},
 	"subdomain": "mark-ott-info",
+	"domains": [
+		"mark-ott.info",
+		"www.mark-ott.info"
+	],
 	"engines": {
 		"node": "0.8.x"
 	}
