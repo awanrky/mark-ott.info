@@ -10,6 +10,7 @@ var express = require('express'),
 
 var app = express();
 
+app.use(express.favicon(__dirname + '/public/images/favicon.ico'));
 var poet = require( 'poet' )( app );
 
 poet.set({
@@ -26,7 +27,6 @@ poet.set({
 app.set('port', process.env.PORT || 3001);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
-app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
