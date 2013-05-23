@@ -14,3 +14,23 @@ body {
 		padding-right: 5px;
 	}
 }
+
+h1 a {
+	font-size: x-large;
+}
+
+a {
+	color: darkgreen;
+}
+
+a:hover {
+	color: green;
+}
+
+.label-info {
+	background: green;
+}
+
+.navbar {
+	background: green;
+}
