@@ -6,9 +6,50 @@ var express = require('express'),
 		routes = require('./routes'),
 		bigBluff = require('./routes/BigBluff'),
 		http = require('http'),
+		winston = require('winston'),
+		expressWinston = require('express-winston'),
+		winstonMongoDb = require('winston-mongodb').MongoDB,
 		path = require('path');
 
+console.log(process.env.NODE_ENV);
+
+if ('development' == process.env.NODE_ENV) {
+	var mongoLoggerOptions = {
+		db: 'MarkOttInfoLogsDevelopment',
+		collection: 'logger'
+	};
+}
+
+if ('test' == process.env.NODE_ENV) {
+	var mongoLoggerOptions = {
+		db: 'MarkOttInfoLogsTest',
+		collection: 'logger'
+	};
+}
+
+if ('production' == process.env.NODE_ENV) {
+	var mongoLoggerOptions = {
+		db: 'nodejitsu_awanrky_nodejitsudb7307883843',
+		collection: 'logger',
+		password: process.env.MONGOPW,
+		host: 'ds059917.mongolab.com',
+		port: 59917
+	};
+}
+
+
+
 var app = express();
+
+app.use(expressWinston.logger({
+	transports: [
+		new winston.transports.Console({
+			json: true,
+			colorize: true
+		})
+//		new winstonMongoDb(mongoLoggerOptions)
+	]
+}));
 
 app.use(express.favicon(__dirname + '/public/images/favicon.ico'));
 var poet = require( 'poet' )( app );
@@ -33,6 +74,16 @@ app.use(express.methodOverride());
 app.use(poet.middleware());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
+//
+//app.use(expressWinston.errorLogger({
+//	transports: [
+//		new winston.transports.Console({
+//			json: true,
+//			colorize: true
+//		}),
+//		new winstonMongoDb(mongoLoggerOptions)
+//	]
+//}));
 
 // development only
 if ('development' == app.get('env')) {
@@ -42,7 +93,6 @@ if ('development' == app.get('env')) {
 app.get('/', routes.index);
 app.get('/default.aspx', routes.defaultaspx);
 
-//app.get('/blog', routes.blog);
 app.get( '/blog', function ( req, res ) { res.render( 'blog/index' ) });
 
 app.get('/BigBluff', bigBluff.index);
