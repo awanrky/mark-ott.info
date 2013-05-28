@@ -46,7 +46,7 @@ app.use(expressWinston.logger({
 		new winston.transports.Console({
 			json: true,
 			colorize: true
-		})
+		})+8
 //		new winstonMongoDb(mongoLoggerOptions)
 	]
 }));
