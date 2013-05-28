@@ -6,7 +6,7 @@
         <ServerConfiguration>
           <option name="serverName" value="localhost" />
           <option name="serverPort" value="27017" />
-          <option name="serverVersion" value="2.4.3" />
+          <option name="serverVersion" value="2.2.3" />
         </ServerConfiguration>
       </list>
     </option>
