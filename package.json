@@ -1,6 +1,6 @@
 {
 	"name": "mark-ott.info",
-	"version": "0.0.1-20",
+	"version": "0.0.2-5",
 	"private": true,
 	"scripts": {
 		"start": "node app.js"
@@ -8,10 +8,7 @@
 	"dependencies": {
 		"express": "3.2.4",
 		"jade": "*",
-		"poet": "*",
-		"winston": "*",
-		"express-winston": "*",
-		"winston-mongodb": "*"
+		"poet": "*"
 	},
 	"subdomain": "mark-ott-info",
 	"domains": [
