@@ -2,9 +2,9 @@
 
 Sunday afternoon, partly cloudy but windy...  finally a chance to get on my bicycle!  (ok, I had better weather the day before, but I got caught up in errands and the endless job of unpacking...)
 
-![iPhone from top](/images/blog/2010/03/sdc10171_iphone_top_300.jpg)
+![iPhone from top](https://s3.amazonaws.com/mark-ott-info/images/blog/2010/03/sdc10171_iphone_top_300.jpg)
 
-![iPhone from front"](/images/blog/2010/03/sdc10170_iphone_front_250.jpg)
+![iPhone from front"](https://s3.amazonaws.com/mark-ott-info/images/blog/2010/03/sdc10170_iphone_front_250.jpg)
 
 I couldn't find my GPS, but I had my trusty iPhone and an armband case handy.  Time to give the [iMapMyRide](http://www.imapmy.com/) iPhone app a good tryout.  My tires were absolutely flat, but that was easily fixed.  The rest of the bike appeared in pretty good shape.  The only thing I saw that I wanted to do to it was to take the handlebar water bottle cage off.  Then again... I could just rotate the cage up and strap it in place... maybe I could mount my iPhone to it...
 
@@ -18,7 +18,7 @@ We went by Phat Tire Bicycle Shop since it was closest.  As I was walking insid
 
 On the way home Freedom pointed out some colorful houses, and I figured I'd ride out that way.  But by the time I got there on my bike and stopped to take a picture I realized I had forgotten something important.  That was my [new camera](/blog/post/new-camera-for-this-springs-bicycle-rides).  Well, it wasn't so new anymore, but I hadn't taken it on a bicycle ride yet.  I had also forgotten to close the garage door, but I could have taken care of that with a text to Freedom.   I went back for the camera.
 
-![HighPointe housing development"](/images/blog/2010/03/sdc10179_highpointe_600.jpg)
+![HighPointe housing development"](https://s3.amazonaws.com/mark-ott-info/images/blog/2010/03/sdc10179_highpointe_600.jpg)
 
 I got my picture, and several others while I was out.  It was a nice easy ride with no destination in mind.  I just wanted to see how my legs had held up since last year and enjoy the day.
 

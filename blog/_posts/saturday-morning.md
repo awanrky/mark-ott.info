@@ -1,4 +1,4 @@
-{{{ "title" : "Saturday Morning", "tags" : [ "june-vacation-2012" ], "category" : "vacation", "date" : "2012-06-09" }}}
+{{{ "title" : "Saturday Morning", "tags" : [ "2012 vacation" ], "category" : "2012 vacation", "date" : "2012-06-09" }}}
 
 Saturday Morning
 Just a quick post to summarize the last two days. Will fill in with more details and pictures later…

@@ -1,7 +1,7 @@
-{{{ "title" : "About Me", "tags" : [ "Mark Ott" ], "category" : "About Me", "date" : "2009-05-24 22:02:31" }}}
+{{{ "title" : "About Me", "tags" : [ "about me" ], "category" : "about me", "date" : "2009-05-24 22:02:31" }}}
 
-<a href="/images/blog/mark-with-lemond-bike-large-dsc04558.jpg">
-<img class="size-full alignleft" title="Mark with lemond bike" src="/images/blog/2009/05/mark_with_lemond_bike_small_dsc045581.jpg" alt="Mark with lemond bike" width="300" height="285" />
+<a href="https://s3.amazonaws.com/mark-ott-info/images/blog/mark-with-lemond-bike-large-dsc04558.jpg">
+<img class="size-full alignleft" title="Mark with lemond bike" src="https://s3.amazonaws.com/mark-ott-info/images/blog/2009/05/mark_with_lemond_bike_small_dsc045581.jpg" alt="Mark with lemond bike" width="300" height="285" />
 </a>
 
 I am a 42 year old husband, addicted bicyclist, and amateur photographer who works, sleeps, and bicycles in and around Northwest Arkansas.

@@ -1,4 +1,4 @@
-{{{ "title" : "Moore Tornado", "tags" : [ "oklahoma", "tornado", "storage" ], "category" : "bicycling", "date" : "2013-05-28 12:27:53" }}}
+{{{ "title" : "Moore Tornado", "tags" : [ "oklahoma", "tornado", "storage" ], "category" : "tornado", "date" : "2013-05-28 12:27:53" }}}
 
 ![Moore water tower](https://s3.amazonaws.com/mark-ott-info/images/blog/2013/05/moore-water-tower-DSC05257.JPG)
 

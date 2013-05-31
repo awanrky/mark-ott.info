@@ -8,4 +8,4 @@ After heading back towards home I explored the walking trail some more, and foun
 
 Ride Length: 16.58 miles
 
-![Explore the Route to Work](/2009/05/03-22-2009tpomb.jpg)
+![Explore the Route to Work](https://s3.amazonaws.com/mark-ott-info/2009/05/03-22-2009tpomb.jpg)

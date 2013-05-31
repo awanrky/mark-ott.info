@@ -1,4 +1,4 @@
-{{{ "title" : "Thursday Morning", "tags" : [ "326-revision" ], "category" : "2012 Vacation", "date" : "2012-06-07 06:51:48" }}}
+{{{ "title" : "Thursday Morning", "tags" : [ "2012 vacation" ], "category" : "2012 vacation", "date" : "2012-06-07 06:51:48" }}}
 
 Got camp set up last night and took patience for a walk.  We went down to the lake and I let her run along the shore.  Surprisingly, she didn''t get all the way in, but she did do some wading.
 

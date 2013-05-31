@@ -1,4 +1,4 @@
-{{{ "title" : "Don't forget the basics", "tags" : [ "programming" ], "category" : "programming", "date" : "2011-08-16 22:21:54" }}}
+{{{ "title" : "Don't forget the basics", "tags" : [ "programming", "computers" ], "category" : "computers", "date" : "2011-08-16 22:21:54" }}}
 
 A week or so ago I evaluated a database tool for SQL Server, mainly to see if it could help me solve a problem I was trying to troubleshoot.  The company has tried to contact me a couple of times since, I assume to try locking in a sale.  I thought I'd respond to one of those e-mails tonight, and even though what I started writing wasn't a good response to that e-mail I thought it turned out to be a nice blog post.  So here is some of that response...
 
