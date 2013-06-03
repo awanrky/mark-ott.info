@@ -55,7 +55,7 @@ app.use(express.favicon(__dirname + '/public/images/favicon.ico'));
 var poet = require( 'poet' )( app );
 
 poet.set({
-	postsPerPage : 3,
+	postsPerPage : 5,
 	posts : './blog/_posts',
 	metaFormat : 'json'
 }).createPostRoute( '/blog/post/:post', 'blog/post' )
