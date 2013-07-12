@@ -52,17 +52,20 @@ app.use(expressWinston.logger({
 }));
 
 app.use(express.favicon(__dirname + '/public/images/favicon.ico'));
-var poet = require( 'poet' )( app );
 
-poet.set({
+var poet = require( 'poet' )( app, {
 	postsPerPage : 5,
 	posts : './blog/_posts',
-	metaFormat : 'json'
-}).createPostRoute( '/blog/post/:post', 'blog/post' )
-	.createPageRoute( '/blog/pagination/:page', 'blog/page' )
-	.createTagRoute( '/blog/tag/:tag', 'blog/tag' )
-	.createCategoryRoute( '/blog/category/:category', 'blog/category' )
-	.init();
+	metaFormat : 'json',
+	routes: {
+		'/blog/post/:post': 'blog/post',
+		'/blog/pagination/:page': 'blog/page',
+		'/blog/tag/:tag': 'blog/tag',
+		'/blog/category/:category': 'blog/category'
+	}
+});
+
+poet.init();
 
 // all environments
 app.set('port', process.env.PORT || 3001);
@@ -71,7 +74,7 @@ app.set('view engine', 'jade');
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
-app.use(poet.middleware());
+//app.use(poet.middleware());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 //
