@@ -1,30 +1,32 @@
 !!!
 html
-	head
-		title= 'while (this) { blog(); }'
-		meta(charset='utf-8')
-		link(rel='stylesheet', href='/external/bootstrap/css/bootstrap.min.css')
-		link(rel='stylesheet', href='/external/bootstrap/css/bootstrap-responsive.min.css')
-		link(rel='stylesheet', href='/stylesheets/site.css')
-		link(rel='stylesheet', href='/stylesheets/blog/blog.css')
-	body
-		include ../navbar
-		.container-fluid
-			.row-fluid
-				.posts.span9
-					block content
-				.sidebar.span3
-					.well.sidebar-nav
-						ul.nav.nav-list
-							li.nav-header categories
-							- each cat in getCategories()
-								li
-									a(href=categoryURL(cat)) #{cat}
-							li.nav-header tags
-							- each tag in getTags()
-								li
-									a(href=tagUrl(tag)) #{tag}
-		script(src="/external/jquery/jquery-1.10.1.min.js")
-		script(src="/external/bootstrap/js/bootstrap.js")
-		script(src="/javascript/site.js")
-		script(src="/javascript/blog/index.js")
+    head
+        title= 'while (this) { blog(); }'
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet', href='/external/bootstrap/3/rc1/css/bootstrap.min.css', media='screen')
+        link(rel='stylesheet', href='/stylesheets/site.css')
+        link(rel='stylesheet', href='/stylesheets/blog/blog.css')
+    body
+        include ../navbar
+        .container
+            .row
+                .posts.col-lg-9
+                    block content
+                .sidebar.col-lg-3
+                    div.panel
+                        div.panel-heading Categories
+                        ul.list-group
+                            - each cat in getCategories()
+                                li.list-group-item
+                                    a(href=categoryURL(cat)) #{cat}
+                    div.panel
+                        div.panel-heading Tags
+                        ul.list-group
+                            - each tag in getTags()
+                                li.list-group-item
+                                    a(href=tagUrl(tag)) #{tag}
+        script(src="http://code.jquery.com/jquery.js")
+        script(src="/external/bootstrap/3/rc1/js/bootstrap.min.js")
+        script(src="/javascript/site.js")
+        script(src="/javascript/blog/index.js")

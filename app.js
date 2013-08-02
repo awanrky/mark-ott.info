@@ -97,6 +97,8 @@ app.use(expressWinston.errorLogger({
 app.get('/', routes.index);
 app.get('/default.aspx', routes.defaultaspx);
 
+app.get('/about-me', routes.aboutMe);
+
 app.get( '/blog', function ( req, res ) { res.render( 'blog/index' ) });
 
 app.get('/BigBluff', bigBluff.index);

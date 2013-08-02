@@ -1,14 +1,15 @@
 doctype 5
 html
-	head
-		title= title
-		link(rel='stylesheet', href='/external/bootstrap/css/bootstrap.min.css')
-		link(rel='stylesheet', href='/external/bootstrap/css/bootstrap-responsive.min.css')
-		link(rel='stylesheet', href='/stylesheets/site.css')
-		script(src="/external/jquery/jquery-1.10.1.min.js")
-		block head
-	body
-		include navbar
-		block content
-script(src="/external/bootstrap/js/bootstrap.js")
+    head
+        title= title
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet', href='/external/bootstrap/3/rc1/css/bootstrap.min.css', media='screen')
+        link(rel='stylesheet', href='/stylesheets/site.css')
+        script(src="http://code.jquery.com/jquery.js")
+        block head
+    body
+        include navbar
+        block content
+script(src="/external/bootstrap/3/rc1/js/bootstrap.min.js")
 script(src="/javascript/site.js")
+script(src="/javascript/index.js")
