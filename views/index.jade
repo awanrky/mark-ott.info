@@ -5,9 +5,57 @@ block head
 
 block content
     div#content
-        div.picture
-        div.picture
-        div.picture
+        div#carousel.carousel.slide
+            ol.carousel-indicators
+                li(data-target="#carousel", data-slide-to="0").active
+                li(data-target="#carousel", data-slide-to="1")
+                li(data-target="#carousel", data-slide-to="2")
+                li(data-target="#carousel", data-slide-to="3")
+                li(data-target="#carousel", data-slide-to="4")
+                li(data-target="#carousel", data-slide-to="5")
+                li(data-target="#carousel", data-slide-to="6")
+                li(data-target="#carousel", data-slide-to="7")
+            div.carousel-inner
+                div.item
+                    img(src="https://s3.amazonaws.com/mark-ott-info/images/index/patience-at-lake-leatherwood-1024-576.jpg", alt="")
+                    div.carousel-caption
+                        h3 Patience at Lake Leatherwood
+                        p Taken on vacation, July 2013
+                div.item.active
+                    img(src="https://s3.amazonaws.com/mark-ott-info/images/index/downtown-austin-1024-576.JPG", alt="")
+                    div.carousel-caption
+                        h3 Downtown Austin
+                        p Taken during trip to Texas Javascript, April 2013
+                div.item
+                    img(src="https://s3.amazonaws.com/mark-ott-info/images/index/camping-at-indian-point-1024-576.jpg", alt="")
+                    div.carousel-caption
+                        h3 Camping at Indian Point on Beaver Lake
+                        p Taken on Memorial Day weekend, May 2013
+                div.item
+                    img(src="https://s3.amazonaws.com/mark-ott-info/images/index/devils-tower-2012-vacation-1024-576.jpg", alt="")
+                    div.carousel-caption
+                        h3 Devil's Tower
+                        p Taken on vacation, June 2012
+                div.item
+                    img(src="https://s3.amazonaws.com/mark-ott-info/images/index/mark-at-niagra-falls-1024-576.jpg", alt="")
+                    div.carousel-caption
+                        h3 Mark at Niagra Falls
+                        p Taken on trip to Canada for Consumer Testing Laboratories, December 2012
+                div.item
+                    img(src="https://s3.amazonaws.com/mark-ott-info/images/index/captain-meriwether-lewis-1024-576.JPG", alt="")
+                    div.carousel-caption
+                        h3
+                            a(href="http://en.wikipedia.org/wiki/Captain_Meriwether_Lewis_(dustpan_dredge)") Captain Meriwether Lewis
+                        p Taken on vacation, June 2012
+                div.item
+                    img(src="https://s3.amazonaws.com/mark-ott-info/images/index/downtown-deadwood-1024-576.JPG", alt="")
+                    div.carousel-caption
+                        h3 Downtown Deadwood
+                        p Taken on vacation, June 2012
+            a(href="#carousel", data-slide="prev").left.carousel-control
+                span.icon-prev
+            a(href="#carousel", data-slide="next").right.carousel-control
+                span.icon-next
     script(src="/javascript/index.js")
 
 

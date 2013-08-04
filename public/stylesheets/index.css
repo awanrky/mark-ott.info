@@ -1,40 +1,18 @@
 #content {
-	width: 800px;
-	margin: 0 auto;
+    width: 800px;
+    margin: 0 auto;
 }
 
 #links {
-	float: left;
+    float: left;
 }
 
-.picture {
-    -webkit-transition: all 4s ease-in-out;
-    transition: all 4s ease-in-out;
+#carousel {
+    width: 1024px;
+    height: 576px;
 }
 
-.picture-lemond-by-picnic-table {
-    background: url("https://s3.amazonaws.com/mark-ott-info/images/lemond-by-picnic-table.jpg");
-    width: 800px;
-    height: 800px;
-}
-
-.picture-mark-packing-truck {
-    background: url("https://s3.amazonaws.com/mark-ott-info/images/blog/2013/05/mark-packing-truck-600-418-DSC05192.JPG");
-    width: 600px;
-    height: 418px;
-}
-
-.picture-location-1 {
-    left: 100px;
-    top: 100px;
-}
-
-.picture-location-2 {
-    left: 3px;
-    top: 20px;
-}
-
-.picture-location-3 {
-    left: 52px;
-    top: 23px;
+h3 {
+    font-size: 40px;
+    text-shadow: -1px -1px 4px black, 3px 3px 4px black;
 }
