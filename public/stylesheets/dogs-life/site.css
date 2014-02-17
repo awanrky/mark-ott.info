@@ -1,0 +1,24 @@
+html body {
+    font-family: 'Carme', sans-serif;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: 'Finger Paint', cursive;
+}
+
+.navbar-brand span {
+    font-size: small;
+}
+
+.park-title {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.park-banner {
+    margin: 10px 0;
+}
