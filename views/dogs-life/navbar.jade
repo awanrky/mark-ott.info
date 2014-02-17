@@ -1,0 +1,17 @@
+nav.navbar.navbar-default.navbar-static-top(role='navigation')
+    .container-fluid
+        .navbar-header
+            a#navbar-link-brand.navbar-brand(href='/dogs-life') Dog's&nbsp;Life
+                br
+                span Central&nbsp;Texas
+        //.collapse.navbar-collapse
+        ul.nav.navbar-nav
+            li#parks-list.dropdown
+                a.dropdown-togle(href='#' data-toggle='dropdown') Parks
+                    b.caret
+                ul.dropdown-menu
+                    li
+                        a(href='/dogs-life/pace-bend-park') Pace Bend Park
+        ul.nav.navbar-nav.navbar-right
+            li#navbar-list-item-about-me
+                a#navbar-link-about(href='/dogs-life/about') About

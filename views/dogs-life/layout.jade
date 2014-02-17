@@ -1,0 +1,17 @@
+doctype html
+html
+    head
+        title= title
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet', href='/external/bootstrap/3/rc1/css/bootstrap.min.css', media='screen')
+        link(rel='stylesheet', href='/stylesheets/flat-ui.css')
+        link(rel='stylesheet', href='/stylesheets/dogs-life/site.css')
+        link(href='http://fonts.googleapis.com/css?family=Finger+Paint|Carme' rel='stylesheet' type='text/css')
+        script(src="http://code.jquery.com/jquery.js")
+        block head
+    body
+        include navbar
+        block content
+script(src="/external/bootstrap/3/rc1/js/bootstrap.min.js")
+//script(src="/javascript/dogs-life/site.js")
+script(src="/javascript/dogs-life/index.js")

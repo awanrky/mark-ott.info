@@ -16,3 +16,13 @@ exports.blog = function (req, res) {
 exports.aboutMe = function (req, res) {
     res.render('about-me', { title: 'while (this) { about(); }'});
 };
+
+exports.dogsLife = function(req, res) {
+    res.render('dogs-life', { });
+};
+exports.dogsLife.about = function(req, res) {
+    res.render('dogs-life/about', {});
+};
+exports.dogsLife.paceBendPark = function(req, res) {
+    res.render('dogs-life/pace-bend-park', {});
+};
