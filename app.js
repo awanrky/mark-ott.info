@@ -102,6 +102,7 @@ app.get('/about-me', routes.aboutMe);
 app.get('/dogs-life', routes.dogsLife);
 app.get('/dogs-life/about', routes.dogsLife.about);
 app.get('/dogs-life/pace-bend-park', routes.dogsLife.paceBendPark);
+app.get('/dogs-life/enchanted-rock', routes.dogsLife.enchantedRock);
 
 app.get( '/blog', function ( req, res ) { res.render( 'blog/index' ) });
 

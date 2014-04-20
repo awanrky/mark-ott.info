@@ -26,3 +26,6 @@ exports.dogsLife.about = function(req, res) {
 exports.dogsLife.paceBendPark = function(req, res) {
     res.render('dogs-life/pace-bend-park', {});
 };
+exports.dogsLife.enchantedRock = function(req, res) {
+    res.render('dogs-life/enchanted-rock', {});
+};

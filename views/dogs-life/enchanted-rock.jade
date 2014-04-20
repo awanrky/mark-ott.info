@@ -1,0 +1,42 @@
+//
+   Created by mark on 4/20/14.
+
+extends ./layout
+block head
+    link(rel='shortcut icon', href='/images/favicon.ico?v=3')
+block content
+    div#content
+        div.navbar-spacer
+        div.row
+            div.col-lg-12.park-title
+                a(href='http://www.tpwd.state.tx.us/state-parks/enchanted-rock' target='_blank') Enhcanted Rock State Natural Area
+        div.row
+            div.col-lg-12.park-banner
+                img(src='https://s3.amazonaws.com/mark-ott-info/images/dogs-life/enchanted-rock/enchanted-rock-banner.jpg')
+        div.row
+            div.col-lg-8
+                //img#picture-of-mark.img-circle(src='https://s3.amazonaws.com/mark-ott-info/images/about-me/mark-about-me-200-200.jpg')
+                div.story
+
+                    p
+                        img(src='https://s3.amazonaws.com/mark-ott-info/images/dogs-life/enchanted-rock/patience-on-top-of-enchanted-rock.jpg').standard-image-left
+                        | Although the drive from Austin takes nearly two hours, a trip to Enchanted Rock won't leave you or your dog disappointed, even if yours, like mine, would rather be swimming.
+                        | The view from the top is wonderful, the climb is easy (but tiring), and there is a lot to explore.
+                    p.
+                        Make sure to take plenty of water and try to visit on a weekday.  On the weekend you'll be stuck in along line of traffic before you even get into the park, and once you get in
+                        you'll then have a challenge of finding a parking spot.  But don't let that deter you.  I do prefer a nice solitary walk in the woods, but the atmosphere at Enchanted Rock is
+                        very relaxing even with all the people.  Take a picnic lunch and enjoy the day exploring the top and walking the trails.
+                    p
+                        img(src='https://s3.amazonaws.com/mark-ott-info/images/dogs-life/enchanted-rock/patience-in-fredricksburg.jpg').standard-image-right
+                        | When you leave it would be a shame not to head down to Fredericksburg for a walk through town and maybe a beer (or wine, if you prefer) before the trip home.
+                        | I'm sure your pooch will be napping the entire way.
+
+            div.col-lg-4
+                ul
+                    li <b>Leash Free:</b> No
+                    li <b>Category: </b>
+                        a(href='http://www.tpwd.state.tx.us/state-parks/' target='_blank') Texas State Park
+                    li <b>Day Use Fee: </b> $7/Adult or use your&nbsp;
+                        a(href='http://www.tpwd.state.tx.us/state-parks/texas-state-parks-pass' target='_blank') Texas State Parks Pass
+                    li <b>Activities: </b> Hiking, Camping
+                iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440078.5483641497!2d-98.85110094384848!3d30.489533705956344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865bb60e7927c029%3A0xd728770566098a59!2sEnchanted+Rock+State+Natural+Area!5e0!3m2!1sen!2sus!4v1398005868824" width="400" height="300" frameborder="0" style="border:0")
