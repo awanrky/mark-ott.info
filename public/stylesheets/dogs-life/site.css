@@ -14,6 +14,10 @@ html body {
     font-size: small;
 }
 
+.navbar-spacer {
+    padding: 42px;
+}
+
 .park-title {
     text-align: center;
     font-size: 1.5em;
