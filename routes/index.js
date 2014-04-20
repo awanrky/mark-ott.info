@@ -23,6 +23,9 @@ exports.dogsLife = function(req, res) {
 exports.dogsLife.about = function(req, res) {
     res.render('dogs-life/about', {});
 };
+exports.dogsLife.walnutCreek = function(req, res) {
+    res.render('dogs-life/walnut-creek', {});
+};
 exports.dogsLife.paceBendPark = function(req, res) {
     res.render('dogs-life/pace-bend-park', {});
 };

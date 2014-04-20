@@ -101,6 +101,7 @@ app.get('/about-me', routes.aboutMe);
 
 app.get('/dogs-life', routes.dogsLife);
 app.get('/dogs-life/about', routes.dogsLife.about);
+app.get('/dogs-life/walnut-creek', routes.dogsLife.walnutCreek);
 app.get('/dogs-life/pace-bend-park', routes.dogsLife.paceBendPark);
 app.get('/dogs-life/enchanted-rock', routes.dogsLife.enchantedRock);
 
