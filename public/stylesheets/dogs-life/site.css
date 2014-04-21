@@ -42,3 +42,8 @@ p {
     margin: 10px;
     width: 500px;
 }
+
+.large-image-right {
+    float: right;
+    margin: 10px;
+}
